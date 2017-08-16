@@ -15,7 +15,7 @@ options:
  [ -v | --verbose ] распарсиваем и выводим на консоль параменты командной строки для проверкии и выходим
  [ -d | --debug ] вывод в лог отладочной информации, лучше не включать :)
 ```
-Программа читает в real-time постоянно обновляюшийся лог из < -f /path/to/read/file | --filename /path/to/read/file >
+Программа читает в real-time постоянно обновляющийся лог из < -f /path/to/read/file | --filename /path/to/read/file >
 цифру из колонки [--column, default 4] и сравнивает ее со значением [--triggervalue, default 10]
 если цифра из колонки была больше [--triggercount] раза подряд тогда посылаем
 сообщение на e-mail <--mailto recipients separated by commas without spaces>

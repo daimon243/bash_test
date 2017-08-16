@@ -82,7 +82,7 @@ function usage()
     echo "  [ -v | --verbose ] распарсиваем и выводим на консоль параменты командной строки для проверкии и выходим"
     echo "  [ -d | --debug ] вывод в лог отладочной информации, лучше не включать :)"
     echo
-    echo " Программа читает в real-time постоянно обновляжшийся лог из < -f /path/to/read/file | --filename /path/to/read/file >"
+    echo " Программа читает в real-time постоянно обновляющийся лог из < -f /path/to/read/file | --filename /path/to/read/file >"
     echo " Пример формата лога:"
     echo "  10/20/2017   673   7873   8     788222"
     echo "  10/20/2017   679   7873   17    788222"
@@ -90,7 +90,7 @@ function usage()
     echo "цифру из колонки [--column, default 4] и сравнивает ее со значением [--triggervalue, default 10]"
     echo "если цифра из колонки была больше [--triggercount] раза подряд тогда посылаем"
     echo "сообщение на e-mail <--mailto recipients separated by commas without spaces>"
-    echo "с темой сообщения 'NOTIFICATION: DOWN'. После этого если цифра из колонки была меньше либо равна [--triggervalue]"
+    echo "с темой сообщения 'NOTIFICATION: DOWN'. После этого, если цифра из колонки была меньше либо равна [--triggervalue]"
     echo "подряд [--triggercount] раз тогда посылаем сообщение на указанные e-mail с темой 'NOTIFICATION: UP'"
 }
 
